@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Edge
+comment0.text=\n\ A\ directed\ edge\ in\ the\ graph,\ with\ associated\ data.\n\ fromNode\ and\ toNode\ are\ the\ nodes\ at\ the\ beginning\ and\ end\ of\ the\ edge\n
+comment1.params=fromNode\ toNode
+comment1.target=Edge(Gnode,\ Gnode)
+comment2.params=
+comment2.target=Gnode\ fromNode()
+comment3.params=
+comment3.target=Gnode\ toNode()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Graph
+comment0.text=\n\ Graph\ is\ the\ data\ structure\ that\ stores\ the\ collection\ of\ nodes\ and\ connections(edges).\ \n\ The\ Graph\ constructor\ is\ passed\ a\ Map\ of\ the\ nodes,\ indexed\ by\ node\ Id\ and\n\ \ a\ collection\ of\ the\ (origninal)\ Edges.\n\ The\ nodes\ in\ the\ map\ have\ their\ id\ and\ name.\n\ The\ Edges\ are\ defined\ by\ their\ ids\ (which\ are\ defaulted\ to\ 0\ in\ the\ Edge\ class),\ node\ from\ which\ it\ originates\ (fromNode),\ node\ to\ which\ it\ ends\ (toNode)\n
+comment1.params=nodes\ originalEdges
+comment1.target=Graph(java.util.Map,\ java.util.Collection)
+comment1.text=\n\ Construct\ a\ new\ graph\ given\ a\ collection\ of\ nodes\ and\ a\ collection\ of\ edges\n
+comment2.params=
+comment2.target=void\ printGraphData()
+comment3.params=
+comment3.target=java.util.Map\ getNodes()
+comment3.text=\n\ Return\ a\ map\ of\ all\ the\ nodes\ in\ the\ network\n
+comment4.params=
+comment4.target=java.util.Collection\ getOriginalEdges()
+comment4.text=\n\ Return\ a\ collection\ of\ all\ the\ edges\ in\ the\ network\n
+comment5.params=id
+comment5.target=Gnode\ getGnode(java.lang.String)
+comment5.text=\n\ Return\ the\ node\ id\ \n
+numComments=6
