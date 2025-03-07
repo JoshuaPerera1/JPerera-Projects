@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Department
+comment0.text=\n\ A\ treatment\ Department\ (ER,\ X-Ray,\ MRI,\ ER,\ UltraSound,\ Surgery)\n\ Each\ department\ will\ need\n\ -\ A\ name,\n\ -\ A\ maximum\ number\ of\ patients\ that\ can\ be\ treated\ at\ the\ same\ time\n\ -\ A\ Set\ of\ Patients\ that\ are\ currently\ being\ treated\n\ -\ A\ Queue\ of\ Patients\ waiting\ to\ be\ treated.\n\ \ \ \ (ordinary\ queue,\ or\ priority\ queue,\ depending\ on\ argument\ to\ constructor)\n
+comment1.params=name\ maxPatients\ usePriQueue
+comment1.target=Department(java.lang.String,\ int,\ boolean)
+comment1.text=\n\ Construct\ a\ new\ Department\ object\n\ Initialise\ the\ waiting\ queue\ and\ the\ current\ Set.\n
+comment2.params=p
+comment2.target=void\ removePatientFromTreatmentRoom(Patient)
+comment2.text=\#\ YOUR\ CODE\ HERE
+comment3.params=p
+comment3.target=void\ addPatientToWaitingRoom(Patient)
+comment4.params=
+comment4.target=java.util.Set\ treatmentMethod()
+comment5.params=
+comment5.target=void\ patientsInWaitingRoom()
+comment6.params=y
+comment6.target=void\ redraw(double)
+comment6.text=\n\ Draw\ the\ department\:\ the\ patients\ being\ treated\ and\ the\ patients\ waiting\n\ You\ may\ need\ to\ change\ the\ names\ if\ your\ fields\ had\ different\ names\n
+numComments=7

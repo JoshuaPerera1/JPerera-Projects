@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HospitalERCompl
+comment0.text=\n\ Simulation\ of\ a\ Hospital\ ER\n\ \n\ The\ hospital\ has\ a\ collection\ of\ Departments,\ including\ the\ ER\ department,\ each\ of\ which\ has\n\ \ and\ a\ treatment\ room.\n\ \n\ When\ patients\ arrive\ at\ the\ hospital,\ they\ are\ immediately\ assessed\ by\ the\n\ \ triage\ team\ who\ determine\ the\ priority\ of\ the\ patient\ and\ (unrealistically)\ a\ sequence\ of\ treatments\ \n\ \ that\ the\ patient\ will\ need.\n\n\ The\ simulation\ should\ move\ patients\ through\ the\ departments\ for\ each\ of\ the\ required\ treatments,\n\ finally\ discharging\ patients\ when\ they\ have\ completed\ their\ final\ treatment.\n\n\ \ READ\ THE\ ASSIGNMENT\ PAGE\!\n
+comment1.params=usePriorityQueues
+comment1.target=void\ reset(boolean)
+comment1.text=\n\ stop\ any\ running\ simulation\n\ Define\ the\ departments\ available\ and\ put\ them\ in\ the\ map\ of\ departments.\n\ Each\ department\ needs\ to\ have\ a\ name\ and\ a\ maximum\ number\ of\ patients\ that\n\ it\ can\ be\ treating\ at\ the\ same\ time.\n\ reset\ the\ statistics\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Main\ loop\ of\ the\ simulation\n
+comment3.params=p
+comment3.target=void\ discharge(Patient)
+comment3.text=\n\ Report\ that\ a\ patient\ has\ been\ discharged,\ along\ with\ any\n\ useful\ statistics\ about\ the\ patient\n
+comment4.params=
+comment4.target=void\ reportStatistics()
+comment4.text=\n\ Report\ summary\ statistics\ about\ the\ simulation\n
+comment5.params=
+comment5.target=void\ setupGUI()
+comment5.text=\n\ Set\ up\ the\ GUI\:\ buttons\ to\ control\ simulation\ and\ sliders\ for\ setting\ parameters\n
+comment6.params=
+comment6.target=void\ redraw()
+comment6.text=\n\ Redraws\ all\ the\ departments\n
+comment7.params=arguments
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\n\ Construct\ a\ new\ HospitalER\ object,\ setting\ up\ the\ GUI,\ and\ resetting\n
+numComments=8
